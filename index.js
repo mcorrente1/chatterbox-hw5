@@ -2,6 +2,7 @@ var http = require("http");
 var fs = require("fs");
 var extract = require("./extract");
 var mime = require("mime");
+// eslint-disable-next-line no-unused-vars
 var wss = require("./websockets-server");
 
 var handleError = function(err, res) {
